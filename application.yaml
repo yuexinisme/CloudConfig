@@ -1,0 +1,16 @@
+#spring:
+#  kafka:
+#    consumer:
+#      auto-offset-reset: earliest
+#    listener:
+#      ack-mode: MANUAL_IMMEDIATE
+
+
+dubbo:
+  application:
+    id: dubbo-consumer-demo
+    name: spring_demo
+    logger: slf4j
+person:
+  name: nicki
+  age: 46
